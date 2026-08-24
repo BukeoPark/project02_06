@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit-order-page",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "app/order_page.py", "--server.port", "8502", "--server.headless", "true"],
+      "port": 8502
+    }
+  ]
+}
